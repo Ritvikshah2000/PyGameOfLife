@@ -1,0 +1,6 @@
+#this is so that it can be installed through pip
+
+from pygameoflife import LifeGame
+
+game = LifeGame()  # new instance of game
+game.run()  # run game
